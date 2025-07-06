@@ -1,0 +1,1 @@
+select transaksi.reg, data_pasien.nama as nama_pasien, data_pasien.alamat, data_dokter.nama as nama_dokter from transaksi join data_pasien on transaksi.reg=data_pasien.reg join data_dokter on transaksi.id_dokter=data_dokter.id_dokter;
